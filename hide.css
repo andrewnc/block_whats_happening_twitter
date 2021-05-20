@@ -1,0 +1,11 @@
+/* what's happening */
+[aria-label="Timeline: Trending now"]{
+    display: none !important;
+  }
+  
+  /* topics to follow */
+  [aria-labelledby="accessible-list-0"] {
+    display: none !important;
+  }
+  
+  
