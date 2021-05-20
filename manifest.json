@@ -1,0 +1,10 @@
+{
+  "name": "I don't want to see the news",
+  "description": "It makes me feel bad",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://*.twitter.com/*"]
+  }]
+}
